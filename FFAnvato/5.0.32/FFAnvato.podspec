@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.frameworks = [
         'Accelerate',
         'AVFoundation',
-        'CoreBluetooh',
+        'CoreBluetooth',
         'CoreMedia',
         'MediaPlayer',
         'MobileCoreServices',
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   s.frameworks = [
   #       'Accelerate',
   #       'AVFoundation',
-  #       'CoreBluetooh',
+  #       'CoreBluetooth',
   #       'CoreMedia',
   #       'MediaPlayer',
   #       'MobileCoreServices',
