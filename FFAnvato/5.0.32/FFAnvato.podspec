@@ -49,5 +49,5 @@ Pod::Spec.new do |s|
   #       'libsqlite3'
   # ]
   
-  s.dependency 'google-cast-sdk', '~> 2.10.4'
+  s.dependency 'google-cast-sdk', '~> 2.10'
 end
