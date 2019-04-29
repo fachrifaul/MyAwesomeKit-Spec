@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
     s.ios.vendored_libraries = 'Files/FFAnvato/5.0.32/libANVSDK.a'
     s.source_files = 'Files/FFAnvato/5.0.32/public/*.h'
-    s.public_header_files = 'Files/FFAnvato/5.0.32/public/*.h'
     s.resources    = 'Files/FFAnvato/5.0.32/anv-images.bundle'
 
     # s.ios.vendored_frameworks = 'libANVSDK.a'
