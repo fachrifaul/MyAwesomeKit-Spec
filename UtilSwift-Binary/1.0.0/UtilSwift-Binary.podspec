@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.source_files = 'MergedPodsBinary/UtilSwift/UtilSwift.framework/Headers/*.{h}'
   s.vendored_frameworks = 'MergedPodsBinary/UtilSwift/UtilSwift.framework'
-
+  s.frameworks = "Security"
+  s.resource = "MergedPodsBinary/UtilSwift/UtilSwift.framework/DeviceGuru.bundle"
 
   s.swift_version = ["5.0"]
 end
