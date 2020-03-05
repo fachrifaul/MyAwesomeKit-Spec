@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
-    # s.source            = { :http => 'https://21c00410c7e7f6bd727ec54e61fcb8a08551cb9d@raw.githubusercontent.com/fachrifaul/FFAnvato/master/Files/FFAnvato/5.0.32/FFAnvato.zip' }
     s.source           = { :git => 'https://github.com/fachrifaul/FFAnvato.git', :tag => s.version.to_s }
 
     s.ios.deployment_target = '9.0'
@@ -49,5 +48,5 @@ Pod::Spec.new do |s|
   #       'libsqlite3'
   # ]
   
-  s.dependency 'google-cast-sdk', '~> 2.10'
+  s.dependency 'google-cast-sdk', '2.10.4.1'
 end
